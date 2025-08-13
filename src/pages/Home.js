@@ -14,7 +14,7 @@ const Home = () => {
           <div className="hero-content-clean">
             <div className="hero-text">
               <h1 className="hero-title-clean">
-                Free Online ExpenseTracker Pro
+                Free Online Cloud Expense Tracker
               </h1>
               <p className="hero-subtitle-clean">
                 Take control of your spending with our intelligent expense tracking platform. 
@@ -52,7 +52,7 @@ const Home = () => {
                     <div className="mockup-dots">
                       <span></span><span></span><span></span>
                     </div>
-                    <div className="mockup-title">ExpenseTracker Pro</div>
+                    <div className="mockup-title">Cloud Expense Tracker</div>
                   </div>
                   <div className="mockup-content">
                     <div className="mockup-stat">
@@ -94,7 +94,7 @@ const Home = () => {
       <div className="features-section-clean">
         <div className="container">
           <div className="section-header-clean">
-            <h2>Why Choose ExpenseTracker Pro?</h2>
+            <h2>Why Choose Cloud Expense Tracker?</h2>
             <p>Discover powerful tools to manage your finances effectively</p>
           </div>
 
@@ -146,7 +146,7 @@ const Home = () => {
       <div className="how-it-works-section">
         <div className="container">
           <div className="section-header-clean">
-            <h2>How ExpenseTracker Pro Works</h2>
+            <h2>How Cloud Expense Tracker Works</h2>
             <p>Get started in three simple steps</p>
           </div>
 
@@ -154,7 +154,7 @@ const Home = () => {
             <div className="step-card">
               <div className="step-number">1</div>
               <h3>Create Your Account</h3>
-              <p>Sign up for ExpenseTracker Pro in under 30 seconds. No credit card required to get started.</p>
+              <p>Sign up for Cloud Expense Tracker in under 30 seconds. No credit card required to get started.</p>
             </div>
             <div className="step-card">
               <div className="step-number">2</div>
@@ -164,7 +164,7 @@ const Home = () => {
             <div className="step-card">
               <div className="step-number">3</div>
               <h3>Track & Analyze</h3>
-              <p>View detailed reports, track spending patterns, and achieve your financial goals with ExpenseTracker Pro.</p>
+              <p>View detailed reports, track spending patterns, and achieve your financial goals with Cloud Expense Tracker.</p>
             </div>
           </div>
         </div>
@@ -175,14 +175,14 @@ const Home = () => {
         <div className="cta-section-clean">
           <div className="container">
             <div className="cta-content-clean">
-              <h2>Ready to Transform Your Financial Health with ExpenseTracker Pro?</h2>
-              <p>Join thousands of users who have improved their financial management with ExpenseTracker Pro.</p>
+              <h2>Ready to Transform Your Financial Health with Cloud Expense Tracker?</h2>
+              <p>Join thousands of users who have improved their financial management with Cloud Expense Tracker.</p>
               <div className="cta-buttons-clean">
                 <Link to="/register" className="btn-primary-large">
-                  Start Using ExpenseTracker Pro
+                  Start Using Cloud Expense Tracker
                 </Link>
                 <Link to="/login" className="btn-secondary-large">
-                  Sign In to ExpenseTracker Pro
+                  Sign In to Cloud Expense Tracker
                 </Link>
               </div>
               <p className="cta-note-clean">

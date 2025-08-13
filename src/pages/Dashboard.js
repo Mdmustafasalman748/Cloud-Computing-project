@@ -5,7 +5,7 @@ import { expensesService } from '../services/expenses';
 import { categoriesService } from '../services/categories';
 
 const Dashboard = () => {
-  const { user, logout } = useAuth();
+  const { user } = useAuth();
   const [expenses, setExpenses] = useState([]);
   const [categories, setCategories] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -167,9 +167,6 @@ const Dashboard = () => {
         <div className="dashboard-header">
           <h1>Welcome back, {user?.fullName}</h1>
           <p>Track your expenses and manage your budget</p>
-          <button onClick={logout} className="btn btn-secondary">
-            Logout
-          </button>
         </div>
 
         {/* Error Message */}

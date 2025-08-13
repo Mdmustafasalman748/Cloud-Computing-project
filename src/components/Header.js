@@ -34,9 +34,9 @@ const Header = () => {
         <div className="header-logo">
           <Link to="/" className="logo-link">
             <div className="logo-icon">
-              <div className="logo-gradient">ET</div>
+              <div className="logo-gradient">CET</div>
             </div>
-            <span className="logo-text">ExpenseTracker Pro</span>
+            <span className="logo-text">Cloud Expense Tracker</span>
           </Link>
         </div>
 
