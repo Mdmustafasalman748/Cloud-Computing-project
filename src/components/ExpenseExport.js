@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { format } from 'date-fns';
 import jsPDF from 'jspdf';
-import 'jspdf-autotable';
+import autoTable from 'jspdf-autotable';
 
 const ExpenseExport = ({ expenses, categories, filteredExpenses }) => {
   const [exportFormat, setExportFormat] = useState('csv');
@@ -105,7 +105,7 @@ const ExpenseExport = ({ expenses, categories, filteredExpenses }) => {
       ];
     });
 
-    pdf.autoTable({
+    autoTable(pdf, {
       head: [tableHeaders],
       body: tableData,
       startY: yPosition,
